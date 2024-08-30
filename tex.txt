@@ -4,4 +4,6 @@ git add (工作区(workspace)--》暂存区(index）
 git commit （暂存区--》本地仓库(repository)）
 git status 查看状态
 git add . 	添加所有文件到index
+git commit -m ".." 		提交所有到repository，“ 。。”内为注释
+
 
