@@ -1,0 +1,7 @@
+.git所在目录为 工作目录
+touch 在所在目录下创建 文件
+git add (工作区(workspace)--》暂存区(index）
+git commit （暂存区--》本地仓库(repository)）
+git status 查看状态
+git add . 	添加所有文件到index
+
