@@ -9,5 +9,7 @@ git log  提交记录
 git log[option]
 	## options		--all 显示所有分支， --pretty=oneline 将提交信息显示为一行，--graph 以图形显示
 				--abbrev-commit 使输出的committed更简短，	
+”CCC“
+
 
 
