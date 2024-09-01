@@ -1,5 +1,6 @@
 .git所在目录为 工作目录
 touch 在所在目录下创建 文件
+git init  初始化仓库		（新建文件夹后 ，夹子内 右键 点git bash）（在目录下创建.git)
 git add (工作区(workspace)--》暂存区(index）
 git commit （暂存区--》本地仓库(repository)）
 git status 查看状态
@@ -14,6 +15,14 @@ git log[option]
 ## 版本回退
 git reset --hard commitID	## 回退到 ID 对应版本	## 对版本ID 右键paste
 git reflog ## 查看版本操作记录
-## 使用touch 添加  .gitignore,  编辑	’*.a‘指定后缀不添加（add），或直接指定文件名
+## 使用touch 添加  .gitignore,  编辑	’*.a‘指定后缀不添加（add），或直接指定文件名 // 不希望纳入管理的 自动生成的日志文件/临时文件
 
-
+##  分支： 
+## 查看分支：git branch
+## 创建分支：git branch  brcname， brcname：分支名字	（（此时 ，branch包含/存在master/main此前的操作、记录）## 
+##		有多个分支后，操作只能争对（提交）到一个分支（head->指向）（当前分支），
+## 		git checkout branchname ：切换分支
+##		git checkout -b branchname： 切换到分支，不存在则创建名为branchname的分支
+## 
+## 合并分支： git			##将不同分支
+	
