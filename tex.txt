@@ -14,5 +14,6 @@ git log[option]
 ## 版本回退
 git reset --hard commitID	## 回退到 ID 对应版本	## 对版本ID 右键paste
 git reflog ## 查看版本操作记录
+## 使用touch 添加  .gitignore,  编辑	’*.a‘指定后缀不添加（add），或直接指定文件名
 
 
