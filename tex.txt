@@ -21,7 +21,14 @@ git reflog ## 查看版本操作记录
 ## 查看分支：git branch
 ## 创建分支：git branch  brcname， brcname：分支名字	（（此时 ，branch包含/存在master/main此前的操作、记录）## 
 ##		有多个分支后，操作只能争对（提交）到一个分支（head->指向）（当前分支），
+<<<<<<< HEAD
 ## 		git checkout branch ：切换分支
 ##
 ## 
+=======
+## 		git checkout branchname ：切换分支
+##		git checkout -b branchname： 切换到分支，不存在则创建名为branchname的分支
+## 
+## 合并分支： git			##将不同分支
+>>>>>>> CCC
 	
