@@ -26,4 +26,4 @@ git reflog ## 查看版本操作记录
 ## 		git checkout -d branchname： 删除分支， d-->D强制删除
 ## 合并分支： git merge branchname		## 将 brc提交到master ##将不同分支
 ## 
-	
+## 解决冲突： 
