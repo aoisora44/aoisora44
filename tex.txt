@@ -26,4 +26,32 @@ git reflog ## 查看版本操作记录
 ## 		git checkout -d branchname： 删除分支， d-->D强制删除
 ## 合并分支： git merge branchname		## 将 brc提交到master ##将不同分支
 ## 
-## 解决冲突： 
+## 解决冲突： 保留冲突（如两个分支对同一个文件写入/更改），让开发者自己选择（保留其一）
+
+## 分支使用原则：
+	master（生产）分支： 线上分支，主分支，中小规模项目作为线上运行应用对应的分支，
+	develop（开发）分支： 先在分支上开发，开发完成后合并到master分支，（feature-->develop-->master)
+	hotfix/xxxx分支：从master派生的分支，一般作为线上bug修复使用，修复后合并到master、test、develop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
