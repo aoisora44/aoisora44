@@ -28,10 +28,23 @@ git reflog ## 查看版本操作记录
 ## 
 ## 解决冲突： 保留冲突（如两个分支对同一个文件写入/更改），让开发者自己选择（保留其一）
 
+git branch -vv
+
 ## 分支使用原则：
 	master（生产）分支： 线上分支，主分支，中小规模项目作为线上运行应用对应的分支，
 	develop（开发）分支： 先在分支上开发，开发完成后合并到master分支，（feature-->develop-->master)
 	hotfix/xxxx分支：从master派生的分支，一般作为线上bug修复使用，修复后合并到master、test、develop
+配置 公钥ssh：
+ ssh-keygen -t  rsa
+## 查看密钥： cat	~/.ssh/id_rsa.pub
+
+## git remote add  git@gitee.com:aoisora44/git_-ccc.git
+git remote 
+git push origin master
+
+git push [-f][--set-upstream] [远端名称 [本地分支名][:远端分支名]]	# -f 强制修改(覆盖）（远端）（本地和远端冲突时）
+		## --set-upstream 推送到远端的同时建立起和远端分支的联系
+	
 
 
 
